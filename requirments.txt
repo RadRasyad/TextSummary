@@ -1,4 +1,5 @@
-streamlit
 nltk
+nltk.corpus
+streamlit
 scikit-learn
 Sastrawi.Stemmer.StemmerFactory
