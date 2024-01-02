@@ -1,12 +1,13 @@
 import streamlit as st
 import re
+import numpy as np
+import nltk
+nltk.download('stopwords')
+
+from nltk.corpus import stopwords
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
-import numpy as np
-import nltk
-from nltk.corpus import stopwords
-nltk.download('stopwords')
 
 def generate_summary(text):
     text = text.replace('\n', '')
