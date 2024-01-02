@@ -46,7 +46,10 @@ def generate_summary(text):
 
 
 def main():
+<<<<<<< HEAD:streamlit/app.py
     
+=======
+>>>>>>> 904fcc7ef0d26702f46fa0e6759bb88bc6d3249d:text_summary_stki.py
 
     st.title("Peringkas Berita")
 
