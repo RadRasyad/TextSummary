@@ -45,7 +45,11 @@ def generate_summary(text):
     return summary
 
 
+<<<<<<< HEAD
 def main(): 
+=======
+def main():
+>>>>>>> 76d01ca6bf381134e87912745b657ab925aa76e6
     st.title("Peringkas Berita")
 
     text_input = st.text_area("Masukkan teks:", "Input Text")
